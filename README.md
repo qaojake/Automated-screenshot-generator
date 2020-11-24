@@ -8,3 +8,19 @@ Your task for the case study is to create an automated tool for taking screensho
 
 
 PS. screenshot filename is saved as ID_Date.now() 
+
+I used puppetteer as the fastet and easiest way.
+
+Steps:
+  1. Install node js library
+  2. Open powershell comand
+  3. Configure the instalation
+  4. npm check if you have the needed tools
+    4.1. install npm
+    4.2 npm  install --save-dev nodemon
+    4.3. npm install puppeteer
+  5.  npm start
+  
+  Create a js file where you will type your solution
+  
+  
