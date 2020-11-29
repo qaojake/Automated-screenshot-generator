@@ -9,7 +9,7 @@ var customerKey = '1ebfb4';
       // all next parameters are optional, see our website screenshot API guide for more details
       dimension : '1080xfull', // or "1366xfull" for full length screenshot
       device : 'desktop',
-      format: 'png',
+      format: 'jpg',
       cacheLimit: '0',
       delay: '200',
       zoom: '100'
@@ -20,7 +20,7 @@ var apiUrl = screenshotmachine.generateScreenshotApiUrl(customerKey, secretPhras
 
 //save screenshot as an image
 var fs = require('fs');
-var output = 'output.png';
+var output = 'output.jpg';
 screenshotmachine.readScreenshot(apiUrl).pipe(fs.createWriteStream(output).on('close', function() {
   console.log('Screenshot saved as ' + output);
 }));

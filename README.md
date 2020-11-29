@@ -18,12 +18,17 @@ Do not forget you need the node_modules to run
   2. Open powershell comand  <br/>
   3. Configure the instalation  <br/>
   4. npm check if you have the needed tools  <br/>
+
     4.1. install npm <br/>
     4.2 npm  install --save-dev nodemon  <br/>
     4.3. npm install puppeteer  <br/>
   5.  npm start  <br/>
-  
+
   Create a js file where you will type your solution
+
+
+
+# PS. Run only the index.html file
+
   
-  
-  
+
