@@ -1,18 +1,27 @@
 {
-  "name": "whatever-puppeteer",
-  "version": "1.0.0",
-  "description": "",
+  "name": "screenshotmachine",
+  "version": "2.0.0",
+  "description": "Captures website screenshot and converts website to PDF using Screenshot machine - online website screenshot generator and website to PDF converter",
   "main": "index.js",
-  "scripts": {
-  	"start": "nodemon solution.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+  "keywords": [
+    "screenshots",
+    "screenshot",
+    "fullpage",
+    "webcapture",
+    "headless",
+    "render",
+    "website",
+    "html",
+    "capture",
+    "pdf",
+    "screen capture",
+    "pdf generation",
+    "html-to-pdf",
+    "url-to-pdf"
+  ],
+  "author": "Marek Knaze",
   "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^2.0.6"
-  },
   "dependencies": {
-    "puppeteer": "^5.5.0"
+    "request": "^2.88.0"
   }
 }
