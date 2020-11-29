@@ -10,8 +10,9 @@ PS. screenshot filename is saved as ID_Date.now()
 
 I used puppetteer as i thought it will be the fastet and easiest way.
 Do not forget you need the node_modules to run
-
-![alt text](http://url/to/screen.png)
+<br>
+![Screenshot](screen.png)
+<br>
 # Steps:
   1. Install node js library  <br/>
   2. Open powershell comand  <br/>
