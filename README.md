@@ -28,7 +28,5 @@ Do not forget you need the node_modules to run
 
 
 
-# PS. Run only the index.html file
-
   
 
